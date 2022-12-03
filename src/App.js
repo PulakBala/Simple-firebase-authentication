@@ -30,10 +30,14 @@ function App() {
   }
   return (
     <div className="App">
+      {/* condition ? true : false */}
       { user.email ?
         <button onClick={handleSignOut}>Sign Out</button>
         :
-        <button onClick={handleGoogleSignIn}>Google Sign In</button>
+        <div>
+          <button onClick={handleGoogleSignIn}>Google Sign In</button>
+          <button>Github Sign In</button>
+        </div>
         }
        { user.email && <div>
           <h2>User Name : {user.displayName}</h2>

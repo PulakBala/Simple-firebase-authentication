@@ -24,4 +24,10 @@ INITIAL SETUP
  DISPLAY DATA
  -------------------------------
  16.
-*/
+ -----------------------------
+        ADD A NEW SIGN IN METHOD
+        --------------------------------
+        1 . enable sign in method
+        2.Create  github, twitter, fb, etc, app create
+        3.get clientId and secret
+*/ 
